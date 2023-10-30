@@ -1,0 +1,63 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+}
+
+li {
+   font-size: 14px;
+}
+
+label {
+   display: block;
+   margin: 0.5em 0;
+ }
+
+ textarea, select {
+   margin: 10px 0 0 0;
+   width: 100%;
+   min-height: 2em;
+ }
+ 
+ textarea {
+   border: 1px solid #0a0a23;
+ }
+
+ table, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+   padding: 6px 9px 6px 8px;
+   font-size: 14px;
+   text-align: center;
+ }
+
+ th {
+   border: 1px solid black;
+   border-collapse: collapse;
+   padding: 8px 12px;
+   font-size: 14px;
+   background-color: rgba(5, 135, 228, 0.48);
+ }
+
+ .author {
+   font-style: normal;
+ }
+
+ .pop {
+   text-align: center;
+ }
+
+ .caption {
+   font-size: 13px;
+ }
+
+ .name {
+   margin: 10px 0 0 0;
+   width: 100%;
+   min-height: 2em;
+ }         
+ 
+ .email {
+   margin: 10px 0 0 0;
+   width: 100%;
+   min-height: 2em;
+ }
