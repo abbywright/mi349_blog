@@ -37,13 +37,28 @@ label {
    font-size: 14px;
    background-color: rgba(5, 135, 228, 0.48);
  }
+ 
+.streaks {
+   width: 305px;
+   height: 268px;
+}
 
+.band {
+   width: 250px;
+   height: 250px;
+}
+ 
  .author {
    font-style: normal;
  }
 
  .pop {
    text-align: center;
+ }
+
+ .me-pic {
+   width: 173px; 
+   height: 162px;
  }
 
  .caption {
