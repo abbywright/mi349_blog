@@ -18,29 +18,32 @@
          </ul>
       </nav>
    </header>
-      <div>
+      <section class="blog">
       <h2>Contact Me</h2>
       <form>
-         <fieldset>
-         <label for="name">Name <input class="name" id="name" type="text" required placeholder="Enter your name:"></label>
-         <label for="email">Email <input class="email" id="email" type="text" required placeholder="Enter your email:"></label></fieldset>
-         <fieldset>
-         <label for="dropdown">Reason for contact 
-            <select id="dropdown" name="dropdown">
-               <option value="select">(select one)</option>
-               <option value="saying-hi">Just saying hi</option>
-               <option value="contractor">Looking for a contractor</option>
-               <option value="interview">Interested in an interview</option>
-               <option value="other">Other</option>
-            </select>
-         </label></fieldset>
-         <fieldset>
-         <label for="comments">Comments 
-            <textarea id="comments" name="comments" rows="3" cols="25" placeholder=""></textarea>
-         </label>
-         <input type="submit" value="Submit">
-      </fieldset>
+         <div class="name">
+            <label for="name">Name <input id="name" type="text" required placeholder="Enter your name:"></label></div>
+         <div class="email">
+            <label for="email">Email <input id="email" type="text" required placeholder="Enter your email:"></label>
+         </div>
+         <div class="dropdown">
+            <label for="dropdown">Reason for contact 
+               <select id="dropdown" name="dropdown">
+                  <option value="select">(select one)</option>
+                  <option value="saying-hi">Just saying hi</option>
+                  <option value="contractor">Looking for a contractor</option>
+                  <option value="interview">Interested in an interview</option>
+                  <option value="other">Other</option>
+               </select>
+            </label>
+         </div>
+         <div class="comments">
+            <label for="comments">Comments 
+               <textarea id="comments" name="comments" placeholder=""></textarea>
+            </label>
+         </div>
+            <input class="submit" type="submit" value="Submit">
       </form>
-      </div>
-</body>
-</html>
+   </section>
+   </body>
+   </html>
